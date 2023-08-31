@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Absolutely_Massive_Bone_Rename_Trolling</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="YourIconFileName.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="YourIconFileName.ico" />
+  </ItemGroup>
+
+</Project>
